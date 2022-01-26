@@ -1,4 +1,6 @@
 import { useRef } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 const SendButton = ({ placeholder, sendMessage }) => {
 	const input = useRef();
@@ -19,7 +21,7 @@ const SendButton = ({ placeholder, sendMessage }) => {
 			const h = (d.getHours() < 10 ? '0' : '') + d.getHours();
 			const m = (d.getMinutes() < 10 ? '0' : '') + d.getMinutes();
 
-			const random = Math.floor(Math.random() * 2) == 1 ? false : true;
+			const random = Math.floor(Math.random() * 2) === 1 ? false : true;
 
 			const data = {
 				id: new Date().valueOf(),
@@ -39,14 +41,13 @@ const SendButton = ({ placeholder, sendMessage }) => {
 		<div className='type_msg'>
 			<div className='input_msg_write'>
 				<textarea onKeyPress={handleKeyPress} type='submit' ref={input} className='write_msg' placeholder={placeholder}></textarea>
-				<button
-					className='msg_send_btn'
-					type='button'
+				<FontAwesomeIcon
+					icon={faPaperPlane}
+					className='msgSendButton'
 					onClick={() => {
 						SubmitMessage();
-					}}>
-					<i className='fa fa-paper-plane-o' aria-hidden='true'></i>
-				</button>
+					}}
+				/>
 			</div>
 		</div>
 	);

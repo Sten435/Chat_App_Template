@@ -1,6 +1,6 @@
-const Contacts = ({ name, date, last_msg, imgSrc, isActive }) => {
+const Contacts = ({ id, name, date, last_msg, imgSrc, isActive }) => {
 	return (
-		<div className={`chat_list ${isActive ? 'active_chat' : null}`}>
+		<div key={id} className={`chat_list ${isActive ? 'active_chat' : null}`}>
 			<div className='chat_people'>
 				<div className='chat_img'>
 					<div className='ContactList_image' style={{ backgroundImage: `url(${imgSrc})` }} alt='profile picture'></div>
