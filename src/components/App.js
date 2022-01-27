@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import ChatInbox from './ChatInbox';
 import ChatMessages from './ChatMessages';
 import SendButton from './SendButton';
@@ -40,12 +40,6 @@ function App() {
 		localStorage.setItem('messages', JSON.stringify([...Message, data]));
 		setMessages([...Message, data]);
 	};
-
-	useEffect(() => {
-		document.onclick = () => {
-			document.getElementById('contextMenu').style.display = 'none';
-		};
-	});
 
 	return (
 		<>
