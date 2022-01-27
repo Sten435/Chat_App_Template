@@ -1,6 +1,6 @@
 {
 	"homepage": "https://sten435.github.io/Chat_App/",
-	"name": "chat_app",
+	"name": "Chat_App",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
