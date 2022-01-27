@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import ChatInbox from './ChatInbox';
 import ChatMessages from './ChatMessages';
 import SendButton from './SendButton';
-import ContextMenu from './ContextMenu';
 
 function App() {
 	const MessageDATA = [
@@ -50,7 +49,6 @@ function App() {
 
 	return (
 		<>
-			<ContextMenu />
 			<div className='messaging'>
 				<div className='inbox_msg'>
 					<div className='inbox_people'>
