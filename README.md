@@ -26,13 +26,14 @@ npm run start
 
 👤 **Stan Persoons**
 
-* Twitter: [@PersoonsStan](https://twitter.com/PersoonsStan)
-* Github: [@Sten435](https://github.com/Sten435)
-* LinkedIn: [@Stan Persoons](https://linkedin.com/in/Stan Persoons)
+- Twitter: [@PersoonsStan](https://twitter.com/PersoonsStan)
+- Github: [@Sten435](https://github.com/Sten435)
+- LinkedIn: [@Stan Persoons](https://linkedin.com/in/stan-persoons-a8006914a)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
