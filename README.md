@@ -8,7 +8,7 @@
 
 > Bare react based chat-app template.
 
-### 🏠 [Homepage](https://sten435.github.io/Chat_App/)
+### 🏠 [Example Sample](https://sten435.github.io/Chat_App/)
 
 ## Install
 
